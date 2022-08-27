@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: rgb(116, 169, 179);
+  text-align: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.cards__container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 800px;
+  gap: 10px;
+  background-color: rgb(35, 50, 97);
+}
+
+.card {
+  width: 15vh;
+  height: 20vh;
+  border-radius: 5px;
+  background-color: rgb(114, 165, 123);
+}
